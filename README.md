@@ -1,0 +1,35 @@
+# Server performance Monitor
+
+- A Bash script that provides basic server performance informatiom 
+
+## what it monitors;
+
+- CPU Usage
+- Memory Usage 
+- Disk Usage
+- Running Processes 
+
+## Requirements
+
+- Linux 
+- Bash
+
+## Usage
+
+`````bash 
+chmod +x server-stat.sh
+./ server-stat.sh
+
+
+Skills Demostrated
+
+* Bash Scripting
+* Linux System Administration
+* CPU and Memory Monitoring
+* Process Monitoring 
+* grep 
+* sed
+* awk 
+
+ 
+
