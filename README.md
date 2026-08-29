@@ -1,6 +1,6 @@
 # Server performance Monitor
 
-- A Bash script that provides basic server performance informatiom 
+- A Bash script that provides basic server performance information 
 
 ## what it monitors;
 
