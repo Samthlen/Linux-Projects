@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+
+echo "Usage: log-archive <log-directory>"
+exit 1
+
+fi
+
+LOG_DIR="$1"
+ARCHIVE_DIR="./log-archives"
+
+mkdir -p "$ARCHIVE_DIR"
+
+ARCHIVE_NAME="logs_archive_$(date +'%Y%m%d_%H%M%S').tar.gz"
+mv ~/archive.log "$ARCHIVE_DIR"
+
+tar -czvf "$ARCHIVE_DIR/$ARCHIVE_NAME" "$LOG_DIR"
+echo "$(date + '%Y-%m-%d %H:%M:%S') - Created $ARCHIVE_DIR/$ARCHIVE_NAME" >> "$ARCHIVE_DIR/archive.log"
