@@ -1,8 +1,5 @@
 # Log Archive
 
- 
-https://roadmap.sh/projects/log-archive-tool
-
 A Bash-based log archiving utility that compresses log files into a timestamped `.tar.gz` archive and stores the archive in a separate directory.
 
 ## Features
@@ -71,5 +68,6 @@ Author
 Samthlen
 
 ## reference
+
 https://roadmap.sh/projects/log-archive-tool
 
